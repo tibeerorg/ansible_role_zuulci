@@ -79,9 +79,9 @@ log_config=/etc/zuul/log.conf
 Requirements
 ------------
 
-docker.io
-docker-compose
-community.docker collection (`ansible-galaxy collection install community.docker`)
+- docker.io
+- docker-compose
+- *community.docker* collection (`ansible-galaxy collection install community.docker`)
 
 Role Variables
 --------------
