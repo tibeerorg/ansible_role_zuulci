@@ -81,6 +81,7 @@ Requirements
 
 docker.io
 docker-compose
+community.docker collection (`ansible-galaxy collection install community.docker`)
 
 Role Variables
 --------------
