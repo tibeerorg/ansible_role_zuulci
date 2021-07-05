@@ -38,7 +38,7 @@ connections:
 
 tenants:
   - tenant:
-      name: "Tibeerorg's Tenant"
+      name: "tibeerorg"  # only use names that can be processed by urls.
       source:
         opendevorg:
           untrusted-projects:
