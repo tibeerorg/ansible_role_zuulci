@@ -22,11 +22,3 @@
     {{ component_conf_dirs.certs }} {{ zookeeper_fqdn }}"
   args:
     creates: "{{ component_conf_dirs.certs }}/certs"
-
-- name: ensure cert protection
-  file:
-    path: "{{ component_conf_dirs.certs }}"
-    owner: "{{ operator_user }}"
-    group: "{{ operator_group }}"
-    recurse: true
-    mode: a+rX
