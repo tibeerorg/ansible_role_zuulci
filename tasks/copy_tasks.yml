@@ -14,7 +14,6 @@
     recurse: true
     mode: a+rX
 
-# 2. generate change in first loop entry
 - name: copy zookeeper certificate generator script
   copy:
     src: "{{ item['file'] }}"
